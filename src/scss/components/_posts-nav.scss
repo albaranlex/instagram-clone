@@ -1,0 +1,23 @@
+.posts-nav {
+  @include flex-center;
+  border-top: 1px solid $inactive-text;
+  margin: 0 10vw;
+  margin-top: 30px;
+
+  div {
+    padding: 10px;
+    margin: 0 20px;
+    span {
+      padding: 0 3px;
+      font-size: 12px;
+      font-weight: bold;
+      color: $inactive-text;
+    }
+  }
+  #active {
+    border-top: 1px solid #302f2f;
+    span {
+      color: #302f2f;
+    }
+  }
+}
