@@ -1,0 +1,48 @@
+.profile-container {
+  margin: 20px 10vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-areas: "photo" "content" "photo" "content" "photo" "content" "photo"
+    "content" "photo" "content";
+  background-color: red;
+}
+
+.profile-user-photo {
+  @include flex-center;
+  grid-area: "photo";
+  margin: 20px;
+  img {
+    width: 180px;
+    height: 180px;
+    border: 1px solid black;
+    border-radius: 100%;
+  }
+}
+
+.profile-content {
+  @include flex-center;
+  align-items: flex-start;
+  flex-direction: column;
+  grid-area: "content";
+}
+
+.profile-header {
+  @include flex-center;
+  flex-direction: row;
+  margin: 20px 0;
+  h2 {
+    margin-right: 20px;
+    font-weight: normal;
+  }
+  button {
+    margin-right: 10px;
+    padding: 5px 20px;
+    width: auto;
+    height: 30px;
+    background-color: #4093ee;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bolder;
+  }
+}

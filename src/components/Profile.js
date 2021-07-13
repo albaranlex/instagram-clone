@@ -1,17 +1,20 @@
 import React from "react";
+import { IoIosArrowDown } from "react-icons/io";
 
 function Profile() {
   return (
     <div className="profile-container">
       <div className="profile-user-photo">
-        <img src="#" />
+        <img src="#" alt="user photo" />
       </div>
 
-      <div className="profile-info">
+      <div className="profile-content">
         <div className="profile-header">
-          <p>instadog</p>
+          <h2>instadog</h2>
           <button>Follow</button>
-          <button>More</button>
+          <button>
+            <IoIosArrowDown />
+          </button>
           <button>...</button>
         </div>
 
@@ -34,7 +37,9 @@ function Profile() {
           <p>Best dog content on Instagram</p>
           <p>Follow if you love dogs</p>
           <p>Get your monthly pet food delivery</p>
-          <a hfref>yazing.com/topdeals/expiring</a>
+          <a href="yazing.com/topdeals/expiringnpm">
+            yazing.com/topdeals/expiringnpm
+          </a>
         </div>
 
         <div className="profile-followers">
