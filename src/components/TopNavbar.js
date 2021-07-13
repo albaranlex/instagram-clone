@@ -3,6 +3,7 @@ import { RiHome5Line } from "react-icons/ri";
 import { IoMdPaperPlane } from "react-icons/io";
 import { AiOutlineCompass } from "react-icons/ai";
 import { IoMdHeartEmpty } from "react-icons/io";
+import { AiOutlineSearch } from "react-icons/ai";
 
 function TopNavbar() {
   return (
@@ -14,13 +15,29 @@ function TopNavbar() {
         />
       </div>
       <div className="navbar-middle">
-        <input type="text" placeholder="Search" />
+        <div className="navbar-middle-wrapper">
+          <span className="search-icon">
+            <AiOutlineSearch />
+          </span>
+          <input type="text" placeholder="Search " />
+        </div>
       </div>
       <div className="navbar-right">
-        <RiHome5Line />
-        <IoMdPaperPlane />
-        <AiOutlineCompass />
-        <IoMdHeartEmpty />
+        <span>
+          <RiHome5Line />
+        </span>
+        <span>
+          <IoMdPaperPlane />
+        </span>
+        <span>
+          <AiOutlineCompass />
+        </span>
+        <span>
+          <IoMdHeartEmpty />
+        </span>
+        <span>
+          <img src="#" />
+        </span>
       </div>
     </div>
   );
