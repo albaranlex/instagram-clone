@@ -1,10 +1,34 @@
 import React from "react";
+import { BsFillHeartFill } from "react-icons/bs";
+import { ImBubble } from "react-icons/im";
 
-function Images() {
-  return (
-    <div>
-      <h1>Images</h1>
-    </div>
-  );
+function Images(props) {
+  const { counter } = props;
+  const setCounter = counter.map((obj) => {
+    const { id, title, likes, comments } = obj;
+    return (
+      <div key={id} className="images-container">
+        <div className="img-wrap">
+          <img src="" alt={title} />
+          <div className="hover-img">
+            <span className="heart">
+              <BsFillHeartFill />
+            </span>
+            <span className="likes-counter">
+              <strong>{likes}</strong>
+            </span>
+            <span className="comment">
+              <ImBubble />
+            </span>
+            <span className="comments-counter">
+              <strong>{comments}</strong>
+            </span>
+          </div>
+        </div>
+      </div>
+    );
+  });
+  return <div className="item-wrap">{setCounter}</div>;
 }
+
 export default Images;

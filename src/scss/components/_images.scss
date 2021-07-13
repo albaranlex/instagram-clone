@@ -1,0 +1,39 @@
+.img-wrap {
+  position: relative;
+  img {
+    width: 290px;
+    height: 290px;
+    position: relative;
+  }
+  img:hover {
+    cursor: pointer;
+  }
+}
+
+.hover-img {
+  @include flex-center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #0000006b;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+.images-container:hover .hover-img {
+  visibility: visible;
+  opacity: 1;
+}
+
+.item-wrap {
+  @include flex-center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 60vw;
+  margin: 0 20vw;
+}
