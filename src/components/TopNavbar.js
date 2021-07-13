@@ -1,13 +1,27 @@
 import React from "react";
 import { RiHome5Line } from "react-icons/ri";
-import { IoPaperPlaneOutline } from "react-icons/io";
+import { IoMdPaperPlane } from "react-icons/io";
 import { AiOutlineCompass } from "react-icons/ai";
-import { IoHeartOutline } from "react-icons/ai";
+import { IoMdHeartEmpty } from "react-icons/io";
 
 function TopNavbar() {
   return (
-    <div>
-      <h1>NavBar</h1>
+    <div className="navbar-main-wrapper">
+      <div className="navbar-left">
+        <img
+          src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"
+          alt="logo"
+        />
+      </div>
+      <div className="navbar-middle">
+        <input type="text" placeholder="Search" />
+      </div>
+      <div className="navbar-right">
+        <RiHome5Line />
+        <IoMdPaperPlane />
+        <AiOutlineCompass />
+        <IoMdHeartEmpty />
+      </div>
     </div>
   );
 }
