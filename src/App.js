@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import TopNavbar from "./components/TopNavbar";
-import Main from "./components/Main";
+import Profile from "./components/Profile";
 import Posts from "./components/Posts";
 import Images from "./components/Images";
 import Counters from "./counters.json";
@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <TopNavbar />
-      <Main />
+      <Profile />
       <Posts />
       <Images counter={counter} />
     </div>
