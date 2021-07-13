@@ -1,10 +1,10 @@
 import React from "react";
 
-function Posts() {
+function Images() {
   return (
     <div>
-      <h1>MAIN</h1>
+      <h1>Images</h1>
     </div>
   );
 }
-export default Posts;
+export default Images;
