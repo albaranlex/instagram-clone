@@ -4,6 +4,7 @@ import { IoMdPaperPlane } from "react-icons/io";
 import { AiOutlineCompass } from "react-icons/ai";
 import { IoMdHeartEmpty } from "react-icons/io";
 import { AiOutlineSearch } from "react-icons/ai";
+import UserImg from "../img/user.png";
 
 function TopNavbar() {
   return (
@@ -36,7 +37,7 @@ function TopNavbar() {
           <IoMdHeartEmpty />
         </span>
         <span>
-          <img src="#" />
+          <img src={UserImg} />
         </span>
       </div>
     </div>
