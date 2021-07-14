@@ -1,5 +1,9 @@
 .navbar-main-wrapper {
   @include flex-center;
+  @include for-tablet-landscape-up {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+  }
   justify-content: space-between;
   padding: 10px;
   border-bottom: 1px solid $inactive-text;
@@ -14,11 +18,15 @@
 
 .navbar-middle {
   @include flex-center;
+
   background-color: #fafafa;
   width: 220px;
   margin-left: -120px;
   .navbar-middle-wrapper {
     @include flex-center;
+    @include for-tablet-landscape-up {
+      display: none;
+    }
     border: 1px solid $inactive-text;
     width: 220px;
     height: 27px;
