@@ -5,11 +5,11 @@ import { ImBubble } from "react-icons/im";
 function Images(props) {
   const { counter } = props;
   const setCounter = counter.map((obj) => {
-    const { id, title, likes, comments } = obj;
+    const { id, title, likes, comments, image } = obj;
     return (
       <div key={id} className="images-container">
         <div className="img-wrap">
-          <img src="" alt={title} />
+          <img src={image} alt={title} />
           <div className="hover-img">
             <span className="heart">
               <BsFillHeartFill />
