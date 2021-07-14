@@ -1,9 +1,11 @@
 .img-wrap {
   position: relative;
+
   img {
     width: 290px;
     height: 290px;
     position: relative;
+    object-fit: cover;
   }
   img:hover {
     cursor: pointer;
