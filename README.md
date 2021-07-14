@@ -1,5 +1,9 @@
 ![ScreenShot](./src/img/screenshots/screenshot-01.gif)
 
+## Project Link
+
+<https://github.com/albaranlex/instagram-clone/>
+
 ## Project Summary
 
 - The project utilizes React JS, which includes, but not limited to, components, props and states. The website layout was done with SCSS.
