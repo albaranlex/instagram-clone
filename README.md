@@ -36,7 +36,3 @@ Installs scss to the project folder.\
 
 To install, you can run `npm install react-icons --save`\
 Link to full documentation: <https://react-icons.github.io/react-icons/>
-
-### `npm i node-sass`
-
-Installs scss to the project folder.\
