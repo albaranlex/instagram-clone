@@ -11,11 +11,13 @@ function Profile() {
       <div className="profile-content">
         <div className="profile-header">
           <h2>insta_dog</h2>
-          <button>Follow</button>
-          <button>
-            <IoIosArrowDown />
-          </button>
-          <button>...</button>
+          <div className="buttons-wrapper">
+            <button>Follow</button>
+            <button>
+              <IoIosArrowDown />
+            </button>
+            <button>...</button>
+          </div>
         </div>
 
         <div className="profile-activity">
@@ -40,9 +42,6 @@ function Profile() {
           <p>🔥 Best dog content on Instagram</p>
           <p>🐶 Follow if you love dogs</p>
           <p>⭐ Get your monthly pet food delivery</p>
-          <a href="yazing.com/topdeals/expiringnpm">
-            yazing.com/topdeals/expiringnpm
-          </a>
         </div>
 
         <div className="profile-followers">

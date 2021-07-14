@@ -1,11 +1,10 @@
 .profile-container {
   width: 100vw;
   @include for-tablet-landscape-up {
-    margin: 20px 20px;
+    margin: 0;
   }
-  margin: 20px 0;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 35% 60%;
   grid-areas: "photo" "content" "photo" "content" "photo" "content" "photo"
     "content" "photo" "content";
   //   background-color: red;
@@ -15,11 +14,12 @@
   @include flex-center;
   justify-content: flex-end;
   grid-area: "photo";
-  margin: 10px 20px;
+  margin: 10px 0px;
   img {
     @include for-tablet-landscape-up {
       width: 150px;
       height: 150px;
+      margin-top: -180px;
     }
     width: 180px;
     height: 180px;
@@ -40,12 +40,15 @@
 
 .profile-header {
   @include flex-center;
-  flex-direction: row;
+  @include for-tablet-landscape-up {
+    align-items: flex-start;
+    flex-direction: column;
+  }
   margin: 20px 0;
   h2 {
-    // margin-right: 20px;
     font-weight: normal;
     font-size: 30px;
+    margin-right: 20px;
   }
   button {
     margin-right: 10px;
