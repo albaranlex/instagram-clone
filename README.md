@@ -1,3 +1,5 @@
+![ScreenShot](./screenshots/screenshot-01.gif)
+
 ## Project Summary
 - The project utilizes React JS, which includes, but not limited to, components, props and states. The website layout was done with SCSS.
 - The target of the project is primarily to show how to grab data from a JSON file using the method `map()`.
