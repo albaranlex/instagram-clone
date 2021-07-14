@@ -1,6 +1,7 @@
 ## Project Summary
 - The project utilizes React JS, which includes, but not limited to, components, props and states. The website layout was done with SCSS.
-- The traget of the project is primarily to show how to grap data from a JSON file using the method `map()`.
+- The target of the project is primarily to show how to grab data from a JSON file using the method `map()`.
+- The website is responsive, made possible with the use of `flexbox`.
 
 ## Available Scripts
 
