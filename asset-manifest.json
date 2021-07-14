@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/albaranlex/instagram-clone.git/static/css/main.5eaed4e1.chunk.css",
-    "main.js": "/albaranlex/instagram-clone.git/static/js/main.ffcb165f.chunk.js",
-    "main.js.map": "/albaranlex/instagram-clone.git/static/js/main.ffcb165f.chunk.js.map",
-    "runtime-main.js": "/albaranlex/instagram-clone.git/static/js/runtime-main.332552c0.js",
-    "runtime-main.js.map": "/albaranlex/instagram-clone.git/static/js/runtime-main.332552c0.js.map",
-    "static/js/2.b30f079e.chunk.js": "/albaranlex/instagram-clone.git/static/js/2.b30f079e.chunk.js",
-    "static/js/2.b30f079e.chunk.js.map": "/albaranlex/instagram-clone.git/static/js/2.b30f079e.chunk.js.map",
-    "index.html": "/albaranlex/instagram-clone.git/index.html",
-    "static/css/main.5eaed4e1.chunk.css.map": "/albaranlex/instagram-clone.git/static/css/main.5eaed4e1.chunk.css.map",
-    "static/js/2.b30f079e.chunk.js.LICENSE.txt": "/albaranlex/instagram-clone.git/static/js/2.b30f079e.chunk.js.LICENSE.txt",
-    "static/media/profile-photo.582447b5.png": "/albaranlex/instagram-clone.git/static/media/profile-photo.582447b5.png",
-    "static/media/user.9153a393.png": "/albaranlex/instagram-clone.git/static/media/user.9153a393.png"
+    "main.css": "/github.io/instagram-clone/static/css/main.2c0390cd.chunk.css",
+    "main.js": "/github.io/instagram-clone/static/js/main.ffcb165f.chunk.js",
+    "main.js.map": "/github.io/instagram-clone/static/js/main.ffcb165f.chunk.js.map",
+    "runtime-main.js": "/github.io/instagram-clone/static/js/runtime-main.b43c9eef.js",
+    "runtime-main.js.map": "/github.io/instagram-clone/static/js/runtime-main.b43c9eef.js.map",
+    "static/js/2.b30f079e.chunk.js": "/github.io/instagram-clone/static/js/2.b30f079e.chunk.js",
+    "static/js/2.b30f079e.chunk.js.map": "/github.io/instagram-clone/static/js/2.b30f079e.chunk.js.map",
+    "index.html": "/github.io/instagram-clone/index.html",
+    "static/css/main.2c0390cd.chunk.css.map": "/github.io/instagram-clone/static/css/main.2c0390cd.chunk.css.map",
+    "static/js/2.b30f079e.chunk.js.LICENSE.txt": "/github.io/instagram-clone/static/js/2.b30f079e.chunk.js.LICENSE.txt",
+    "static/media/profile-photo.582447b5.png": "/github.io/instagram-clone/static/media/profile-photo.582447b5.png",
+    "static/media/user.9153a393.png": "/github.io/instagram-clone/static/media/user.9153a393.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.332552c0.js",
+    "static/js/runtime-main.b43c9eef.js",
     "static/js/2.b30f079e.chunk.js",
-    "static/css/main.5eaed4e1.chunk.css",
+    "static/css/main.2c0390cd.chunk.css",
     "static/js/main.ffcb165f.chunk.js"
   ]
 }
