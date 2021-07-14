@@ -1,4 +1,4 @@
-![ScreenShot](./screenshots/screenshot-01.gif)
+![ScreenShot](./src/img/screenshots/screenshot-01.gif)
 
 ## Project Summary
 
